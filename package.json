@@ -110,11 +110,14 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-svg-loader": "^3.0.3",
+<<<<<<< HEAD
 =======
     "react-cookie": "^4.0.3",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
 >>>>>>> 4d05bb8... feat: implement test version of the boilderplate
+=======
+>>>>>>> 34275eb... Fix svg loader, turn off no-duplicate-imports
     "sass-loader": "^10.0.2",
     "style-loader": "^1.2.1",
     "svgo": "^1.3.2",
