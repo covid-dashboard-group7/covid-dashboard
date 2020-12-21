@@ -1,11 +1,11 @@
-.map-covid {
+.covid {
   position: relative;
   width: 100%;
   height: 100%;
   background-color: green;
 }
 
-.open-map-covid {
+.open-covid {
   position: absolute;
   z-index: 3;
   top: 0.5%;
@@ -17,8 +17,8 @@
 
 .close {
   position: absolute;
-  top: 1%;
-  right: 1%;
+  top: 5px;
+  right: 5px;
 
   &:hover {
     cursor: pointer;
