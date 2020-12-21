@@ -7,7 +7,10 @@ import ComponentLayout from '../layout';
 
 const GraphCovid = (): JSX.Element => (
   <ComponentLayout>
-    <div className={styles['graph-covid']}>GraphCovid</div>
+    <div className={styles['graph-covid']}>
+      <Chart />
+    </div>
   </ComponentLayout>
+);
 
 export default GraphCovid;
