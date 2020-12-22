@@ -1,36 +1,26 @@
 .map-covid {
-  position: relative;
+  position: absolute;
   width: 100%;
   height: 100%;
-  background-color: green;
 }
 
-.open-map-covid {
-  position: absolute;
-  z-index: 3;
-  top: 0.5%;
-  left: 0.5%;
-  width: 99%;
-  height: 99%;
-  background-color: green;
-}
+.mapBox {
+  width: 100%;
+  height: 100%;
 
-.close {
-  position: absolute;
-  top: 1%;
-  right: 1%;
+  p {
+    border-bottom: 1px solid rgba(black, 0.2);
 
-  &:hover {
-    cursor: pointer;
+    b {
+      font-size: 16px;
+      color: #212121;
+      padding: 0 5px;
+    }
   }
-}
 
-.expand-li-icon {
-  display: block;
-  width: 1rem;
-  height: 1rem;
-
-  &:hover {
-    fill: rgba(17, 17, 17, 0.651);
+  img {
+    display: block;
+    width: 3rem;
+    height: 3rem;
   }
 }
