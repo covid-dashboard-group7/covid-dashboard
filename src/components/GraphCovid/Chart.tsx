@@ -7,7 +7,6 @@ import styles from '@/components/GraphCovid/GraphCovid.scss';
 
 const Chart = (): JSX.Element => {
   const [chartDataTotal, setChartDataTotal] = useState({});
-
   /*   function transformDate(date: string): string {
     const options = {
       day: 'numeric',
@@ -90,7 +89,7 @@ const Chart = (): JSX.Element => {
           </button>
         </div>
       </div>
-      <div>
+      <div className={styles['graph-pie']}>
         <Pie
           data={chartDataTotal}
           options={{
