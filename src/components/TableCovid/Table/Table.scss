@@ -5,7 +5,7 @@
   flex-direction: column;
   position: relative;
   overflow: auto;
-  max-height: 80vh;
+  max-height: 40vh;
 
   .tr {
     border-collapse: collapse;
@@ -27,7 +27,7 @@
     text-align: center;
     display: flex;
     font-size: 18px;
-
+    position: relative;
     &:first-child {
       color: #d6d6d6;
     }
@@ -56,5 +56,4 @@
 
 .table-type {
   width: 100%;
-  max-width: 120px;
 }
