@@ -55,7 +55,7 @@ const config: Configuration = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(png|jpg|gif)$/,
+        test: /\.(png|jpg|gif|svg)$/,
         use: [
           {
             loader: 'url-loader',

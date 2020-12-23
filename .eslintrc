@@ -138,6 +138,7 @@
     "no-console": "error",
     "no-alert": "error",
     "no-var": "error",
+    "no-duplicate-imports": "error",
     "no-multiple-empty-lines": "error",
     "no-await-in-loop": "off",
     "prefer-const": "error",
